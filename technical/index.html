@@ -133,7 +133,7 @@
     
       
     
-    <link rel="stylesheet" href="/css/main.min.347c41ebd0a756102ff11cc9a6a5bcf16541da004d11bcee0b3c2c014857d3b0.css?v=1758313642" data-version="1758313642">
+    <link rel="stylesheet" href="/css/main.min.347c41ebd0a756102ff11cc9a6a5bcf16541da004d11bcee0b3c2c014857d3b0.css?v=1758313812" data-version="1758313812">
     <style>
          
         body {
@@ -243,7 +243,7 @@
   </div>
 
   
-  <div id="mobile-menu" class="hidden lg:hidden bg-bg dark:bg-bg shadow-lg flex flex-col">
+  <div id="mobile-menu" class="hidden lg:hidden bg-bg dark:bg-bg shadow-lg flex-col">
     <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col">
       
       
@@ -267,21 +267,21 @@
         
         
           
-            <a href="/" class="px-2 py-1 text-base text-text-primary dark:text-text-primary flex items-center">
+            <a href="/" class="flex items-center px-2 py-1 text-base text-text-primary dark:text-text-primary">
               <img src="/images/en.png" alt="en" class="w-5 h-5 mr-2"/>
               English
             </a>
           
         
           
-            <a href="/ca/" class="px-2 py-1 text-base text-text-primary dark:text-text-primary flex items-center">
+            <a href="/ca/" class="flex items-center px-2 py-1 text-base text-text-primary dark:text-text-primary">
               <img src="/images/ca.png" alt="ca" class="w-5 h-5 mr-2"/>
               Català
             </a>
           
         
           
-            <a href="/es/" class="px-2 py-1 text-base text-text-primary dark:text-text-primary flex items-center">
+            <a href="/es/" class="flex items-center px-2 py-1 text-base text-text-primary dark:text-text-primary">
               <img src="/images/es.png" alt="es" class="w-5 h-5 mr-2"/>
               Español
             </a>
@@ -307,40 +307,40 @@
     </div>
   </div>
 
-  <script defer>
-    document.addEventListener('DOMContentLoaded', function() {
-      
-      if (!localStorage.getItem('darkMode')) {
-        document.documentElement.classList.remove('dark');
-        localStorage.setItem('darkMode', false);
-      } else {
-        const isDark = localStorage.getItem('darkMode') === 'true';
-        if (isDark) document.documentElement.classList.add('dark');
-        else document.documentElement.classList.remove('dark');
-      }
+  
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    if (!localStorage.getItem('darkMode')) {
+      document.documentElement.classList.remove('dark');
+      localStorage.setItem('darkMode', false);
+    } else {
+      const isDark = localStorage.getItem('darkMode') === 'true';
+      document.documentElement.classList.toggle('dark', isDark);
+    }
 
-      
-      function toggleDarkMode() {
-        const isDark = document.documentElement.classList.toggle('dark');
-        localStorage.setItem('darkMode', isDark);
-      }
-      document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
-      document.getElementById('darkModeToggleMobile').addEventListener('click', toggleDarkMode);
+    
+    function toggleDarkMode() {
+      const isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('darkMode', isDark);
+    }
+    document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
+    document.getElementById('darkModeToggleMobile').addEventListener('click', toggleDarkMode);
 
-      
-      const menuBtn = document.getElementById('menu-btn');
-      const mobileMenu = document.getElementById('mobile-menu');
-      menuBtn.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
-      });
+    
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
 
-      
-      document.querySelectorAll('#mobile-menu a').forEach(link => {
-        link.addEventListener('click', () => {
-          mobileMenu.classList.add('hidden');
-        });
+    
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
       });
     });
+  });
   </script>
 </nav>
 
