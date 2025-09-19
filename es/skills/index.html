@@ -133,7 +133,7 @@
     
       
     
-    <link rel="stylesheet" href="/css/main.min.347c41ebd0a756102ff11cc9a6a5bcf16541da004d11bcee0b3c2c014857d3b0.css?v=1758313377" data-version="1758313377">
+    <link rel="stylesheet" href="/css/main.min.347c41ebd0a756102ff11cc9a6a5bcf16541da004d11bcee0b3c2c014857d3b0.css?v=1758313642" data-version="1758313642">
     <style>
          
         body {
@@ -146,7 +146,7 @@
 </head>
 <body class="bg-bg dark:bg-bg text-text-primary dark:text-text-primary flex flex-col min-h-screen transition-colors duration-200">
 
-    <nav class="fixed w-full bg-bg text-text-primary dark:bg-bg dark:text-text-primary shadow-md z-50">
+    <nav class="fixed w-full bg-bg dark:bg-bg shadow-md z-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between h-16">
       
@@ -175,24 +175,38 @@
         
 
         
-        
-        
         <div class="relative group">
+          
           <a href="#" class="nav-link flex items-center text-text-primary dark:text-text-primary">
             <img src="/images/es.png" alt="es" class="w-5 h-5 mr-2"/>
             <i class="fas fa-chevron-down ml-1 text-sm"></i>
           </a>
-          <div class="submenu absolute right-0 top-full mt-2 bg-bg text-text-primary dark:bg-bg dark:text-text-primary shadow-lg rounded-lg z-50 min-w-[8rem] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+          <div class="submenu absolute right-0 top-full mt-2 bg-bg dark:bg-bg shadow-lg rounded-lg z-50 min-w-[8rem] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
             
-              <a href="/es/" class="block px-4 py-2 text-sm">Español</a>
             
-              <a href="/" class="block px-4 py-2 text-sm">English</a>
+              
+                <a href="/" class="block px-4 py-2 text-sm text-text-primary dark:text-text-primary">
+                  <img src="/images/en.png" alt="en" class="w-5 h-5 inline-block mr-2"/>
+                  English
+                </a>
+              
             
-              <a href="/ca/" class="block px-4 py-2 text-sm">Català</a>
+              
+                <a href="/ca/" class="block px-4 py-2 text-sm text-text-primary dark:text-text-primary">
+                  <img src="/images/ca.png" alt="ca" class="w-5 h-5 inline-block mr-2"/>
+                  Català
+                </a>
+              
+            
+              
+                <a href="/es/" class="block px-4 py-2 text-sm text-text-primary dark:text-text-primary">
+                  <img src="/images/es.png" alt="es" class="w-5 h-5 inline-block mr-2"/>
+                  Español
+                </a>
+              
             
           </div>
         </div>
-        
 
         
         <div class="flex items-center space-x-4">
@@ -229,7 +243,7 @@
   </div>
 
   
-  <div id="mobile-menu" class="hidden flex flex-col bg-bg text-text-primary dark:bg-bg dark:text-text-primary shadow-lg">
+  <div id="mobile-menu" class="hidden lg:hidden bg-bg dark:bg-bg shadow-lg flex flex-col">
     <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col">
       
       
@@ -249,23 +263,29 @@
       <hr class="border-t border-border-primary dark:border-border-primary my-2">
 
       
-      
-      <div class="flex flex-col space-y-1">
+      <div class="flex space-x-3 px-3 py-2">
         
-          <a href="/es/" class="block px-3 py-2 text-base text-text-primary dark:text-text-primary">
-            <img src="/images/es.png" alt="es" class="w-5 h-5 inline-block mr-2"/>
-            Español
-          </a>
         
-          <a href="/" class="block px-3 py-2 text-base text-text-primary dark:text-text-primary">
-            <img src="/images/en.png" alt="en" class="w-5 h-5 inline-block mr-2"/>
-            English
-          </a>
+          
+            <a href="/" class="px-2 py-1 text-base text-text-primary dark:text-text-primary flex items-center">
+              <img src="/images/en.png" alt="en" class="w-5 h-5 mr-2"/>
+              English
+            </a>
+          
         
-          <a href="/ca/" class="block px-3 py-2 text-base text-text-primary dark:text-text-primary">
-            <img src="/images/ca.png" alt="ca" class="w-5 h-5 inline-block mr-2"/>
-            Català
-          </a>
+          
+            <a href="/ca/" class="px-2 py-1 text-base text-text-primary dark:text-text-primary flex items-center">
+              <img src="/images/ca.png" alt="ca" class="w-5 h-5 mr-2"/>
+              Català
+            </a>
+          
+        
+          
+            <a href="/es/" class="px-2 py-1 text-base text-text-primary dark:text-text-primary flex items-center">
+              <img src="/images/es.png" alt="es" class="w-5 h-5 mr-2"/>
+              Español
+            </a>
+          
         
       </div>
 
@@ -286,13 +306,6 @@
       </div>
     </div>
   </div>
-
-  <style>
-    .group.open .submenu {
-      opacity: 1 !important;
-      visibility: visible !important;
-    }
-  </style>
 
   <script defer>
     document.addEventListener('DOMContentLoaded', function() {
@@ -318,32 +331,12 @@
       const menuBtn = document.getElementById('menu-btn');
       const mobileMenu = document.getElementById('mobile-menu');
       menuBtn.addEventListener('click', () => {
-        if (mobileMenu.classList.contains('hidden')) {
-          mobileMenu.classList.remove('hidden');
-          mobileMenu.classList.add('flex', 'flex-col');
-        } else {
-          mobileMenu.classList.add('hidden');
-        }
-      });
-
-      
-      document.querySelectorAll('.group > a.nav-link').forEach(link => {
-        link.addEventListener('click', function(e) {
-          e.preventDefault();
-          const group = this.closest('.group');
-          const isOpen = group.classList.contains('open');
-          document.querySelectorAll('.group').forEach(g => g.classList.remove('open'));
-          if (!isOpen) group.classList.add('open');
-        });
-        document.addEventListener('click', function(event) {
-          const group = link.closest('.group');
-          if (!group.contains(event.target)) group.classList.remove('open');
-        });
+        mobileMenu.classList.toggle('hidden');
       });
 
       
       document.querySelectorAll('#mobile-menu a').forEach(link => {
-        link.addEventListener('click', function() {
+        link.addEventListener('click', () => {
           mobileMenu.classList.add('hidden');
         });
       });
