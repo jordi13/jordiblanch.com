@@ -133,7 +133,7 @@
     
       
     
-    <link rel="stylesheet" href="/css/main.min.347c41ebd0a756102ff11cc9a6a5bcf16541da004d11bcee0b3c2c014857d3b0.css?v=1758311995" data-version="1758311995">
+    <link rel="stylesheet" href="/css/main.min.347c41ebd0a756102ff11cc9a6a5bcf16541da004d11bcee0b3c2c014857d3b0.css?v=1758312247" data-version="1758312247">
     <style>
          
         body {
@@ -178,8 +178,10 @@
             
           
         
+
         
         ...
+        
         
         <button id="darkModeToggle" class="text-text-primary dark:text-text-primary focus:outline-none">
           <i class="fas fa-toggle-on dark:hidden"></i>
@@ -224,33 +226,64 @@
   
   <script>
     
-    if (!localStorage.getItem('darkMode')) {
-      document.documentElement.classList.remove('dark'); 
-      localStorage.setItem('darkMode', false);
-    } else {
-      const isDark = localStorage.getItem('darkMode') === 'true';
-      if (isDark) document.documentElement.classList.add('dark');
-      else document.documentElement.classList.remove('dark');
-    }
+    (function() {
+      const storedTheme = localStorage.getItem('darkMode');
+      if (storedTheme === 'true') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark'); 
+        if (storedTheme === null) localStorage.setItem('darkMode', false);
+      }
+    })();
 
     
     document.addEventListener('DOMContentLoaded', function() {
+
       
-    });
+      document.querySelectorAll('.group > a.nav-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          const group = this.closest('.group');
+          const isOpen = group.classList.contains('open');
 
-    
-    function toggleDarkMode() {
-      const isDark = document.documentElement.classList.toggle('dark');
-      localStorage.setItem('darkMode', isDark);
-    }
-    document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
-    document.getElementById('darkModeToggleMobile').addEventListener('click', toggleDarkMode);
+          
+          document.querySelectorAll('.group').forEach(g => g.classList.remove('open'));
 
-    
-    document.querySelectorAll('#mobile-menu a').forEach(link => {
-      link.addEventListener('click', function() {
-        document.getElementById('mobile-menu').classList.add('hidden');
+          if (!isOpen) group.classList.add('open');
+        });
+
+        document.addEventListener('click', function(event) {
+          const group = link.closest('.group');
+          if (!group.contains(event.target)) {
+            group.classList.remove('open');
+          }
+        });
       });
+
+      
+      const menuBtn = document.getElementById('menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+
+      
+      function toggleDarkMode() {
+        const isDark = document.documentElement.classList.toggle('dark');
+        localStorage.setItem('darkMode', isDark);
+      }
+      document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
+      document.getElementById('darkModeToggleMobile').addEventListener('click', toggleDarkMode);
+
+      
+      document.querySelectorAll('#mobile-menu a').forEach(link => {
+        link.addEventListener('click', function() {
+          mobileMenu.classList.add('hidden');
+        });
+      });
+
+      
+      ...
     });
   </script>
 </nav>
