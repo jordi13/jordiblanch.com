@@ -133,7 +133,7 @@
     
       
     
-    <link rel="stylesheet" href="/css/main.min.347c41ebd0a756102ff11cc9a6a5bcf16541da004d11bcee0b3c2c014857d3b0.css?v=1758312247" data-version="1758312247">
+    <link rel="stylesheet" href="/css/main.min.347c41ebd0a756102ff11cc9a6a5bcf16541da004d11bcee0b3c2c014857d3b0.css?v=1758312594" data-version="1758312594">
     <style>
          
         body {
@@ -146,7 +146,7 @@
 </head>
 <body class="bg-bg dark:bg-bg text-text-primary dark:text-text-primary flex flex-col min-h-screen transition-colors duration-200">
 
-    <nav class="fixed w-full bg-bg dark:bg-bg shadow-md z-50">
+    <nav class="fixed w-full bg-bg text-text-primary dark:bg-bg dark:text-text-primary shadow-md z-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between h-16">
       <div class="flex items-center">
@@ -202,17 +202,31 @@
   </div>
 
   
-  <div id="mobile-menu" class="hidden lg:hidden bg-bg dark:bg-bg shadow-lg">
+  <div id="mobile-menu" class="hidden lg:hidden bg-bg text-text-primary dark:bg-bg dark:text-text-primary shadow-lg">
     <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
       
-        ...
+        
+          <a href="/#about" class="block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">About</a>
+        
+        
       
-        ...
+        
+          <a href="/#skills" class="block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">Skills</a>
+        
+        
       
-        ...
+        
+          <a href="/#experience" class="block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">Experience</a>
+        
+        
       
-        ...
+        
+          <a href="/#contact" class="block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">Contact</a>
+        
+        
       
+      
+      ...
     </div>
   </div>
 
@@ -223,21 +237,17 @@
     }
   </style>
 
-  
   <script>
-    
-    (function() {
-      const storedTheme = localStorage.getItem('darkMode');
-      if (storedTheme === 'true') {
-        document.documentElement.classList.add('dark');
-      } else {
-        document.documentElement.classList.remove('dark'); 
-        if (storedTheme === null) localStorage.setItem('darkMode', false);
-      }
-    })();
-
-    
     document.addEventListener('DOMContentLoaded', function() {
+      
+      if (!localStorage.getItem('darkMode')) {
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem('darkMode', false);
+      } else {
+        const isDark = localStorage.getItem('darkMode') === 'true';
+        if (isDark) document.documentElement.classList.add('dark');
+        else document.documentElement.classList.remove('dark');
+      }
 
       
       document.querySelectorAll('.group > a.nav-link').forEach(link => {
@@ -245,18 +255,12 @@
           e.preventDefault();
           const group = this.closest('.group');
           const isOpen = group.classList.contains('open');
-
-          
           document.querySelectorAll('.group').forEach(g => g.classList.remove('open'));
-
           if (!isOpen) group.classList.add('open');
         });
-
         document.addEventListener('click', function(event) {
           const group = link.closest('.group');
-          if (!group.contains(event.target)) {
-            group.classList.remove('open');
-          }
+          if (!group.contains(event.target)) group.classList.remove('open');
         });
       });
 
