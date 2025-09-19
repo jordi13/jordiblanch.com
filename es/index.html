@@ -9,7 +9,13 @@
             document.documentElement.classList.add('dark');
         }
     </script>
-    
+    <script>
+  if (!localStorage.getItem("theme")) {
+    localStorage.setItem("theme", "light");
+  }
+  document.documentElement.classList.add(localStorage.getItem("theme"));
+</script>
+
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -122,7 +128,7 @@
     
       
     
-    <link rel="stylesheet" href="/css/main.min.347c41ebd0a756102ff11cc9a6a5bcf16541da004d11bcee0b3c2c014857d3b0.css?v=1758310559" data-version="1758310559">
+    <link rel="stylesheet" href="/css/main.min.347c41ebd0a756102ff11cc9a6a5bcf16541da004d11bcee0b3c2c014857d3b0.css?v=1758311164" data-version="1758311164">
     <style>
          
         body {
