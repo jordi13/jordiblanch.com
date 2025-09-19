@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ens on My New Hugo Site</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content in Ens on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Sep 2025 10:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/en/contact/</link>
+      <pubDate>Mon, 08 Sep 2025 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/en/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Experiencia</title>
+      <link>http://localhost:1313/en/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/experience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Footer</title>
+      <link>http://localhost:1313/en/footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/footer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Head</title>
+      <link>http://localhost:1313/en/head/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/head/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hero</title>
+      <link>http://localhost:1313/en/hero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/hero/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nav</title>
+      <link>http://localhost:1313/en/nav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/nav/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skills</title>
+      <link>http://localhost:1313/en/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/skills/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical</title>
+      <link>http://localhost:1313/en/technical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/technical/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
