@@ -8,20 +8,7 @@
             document.documentElement.classList.add('dark');
         }
     </script>
-    <script>
-
-  (function() {
-    const storedTheme = localStorage.getItem('darkMode');
-    if (storedTheme === 'true') {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark'); 
-      if (storedTheme === null) localStorage.setItem('darkMode', false);
-    }
-  })();
-</script>
-
-<meta charset="UTF-8" />
+    <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
@@ -133,7 +120,7 @@
     
       
     
-    <link rel="stylesheet" href="/css/main.min.347c41ebd0a756102ff11cc9a6a5bcf16541da004d11bcee0b3c2c014857d3b0.css?v=1758313812" data-version="1758313812">
+    <link rel="stylesheet" href="/css/main.min.347c41ebd0a756102ff11cc9a6a5bcf16541da004d11bcee0b3c2c014857d3b0.css?v=1758314624" data-version="1758314624">
     <style>
          
         body {
@@ -149,88 +136,156 @@
     <nav class="fixed w-full bg-bg dark:bg-bg shadow-md z-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between h-16">
-      
       <div class="flex items-center">
-        <a href="/es/" class="text-3xl font-bold font-heading text-text-primary dark:text-text-primary">Jordi Blanch</a>
+        <a href="/es/" class="text-3xl font-bold text-text-primary dark:text-text-primary font-heading">Jordi Blanch</a>
       </div>
-
-      
       <div class="hidden lg:flex items-center space-x-8">
         
           
+                      
+            
             <a href="/es/#about" class="nav-link text-text-primary dark:text-text-primary">Sobre Mi</a>
           
+          
         
           
+                      
+            
             <a href="/es/#skills" class="nav-link text-text-primary dark:text-text-primary">Habilidades</a>
           
+          
         
           
+                      
+            
             <a href="/es/#experience" class="nav-link text-text-primary dark:text-text-primary">Experiencia</a>
           
+          
         
           
+                      
+            
             <a href="/es/#contact" class="nav-link text-text-primary dark:text-text-primary">Contacto</a>
           
+          
         
-
+        
+        
+        
+        
+        
+        
+        
+        
         
         <div class="relative group">
-          
-          <a href="#" class="nav-link flex items-center text-text-primary dark:text-text-primary">
-            <img src="/images/es.png" alt="es" class="w-5 h-5 mr-2"/>
+          <a href="#" class="nav-link text-text-primary dark:text-text-primary flex items-center" aria-label="Language switcher">
+			<img src="/images/es.png" alt="es flag" class="w-5 h-5 mr-2 inline-block" />
             <i class="fas fa-chevron-down ml-1 text-sm"></i>
           </a>
-          <div class="submenu absolute right-0 top-full mt-2 bg-bg dark:bg-bg shadow-lg rounded-lg z-50 min-w-[8rem] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+          <div class="submenu absolute right-0 top-full mt-2 bg-bg dark:bg-bg shadow-lg rounded-lg z-50 min-w-[8rem] opacity-0 invisible">
             
             
               
-                <a href="/" class="block px-4 py-2 text-sm text-text-primary dark:text-text-primary">
-                  <img src="/images/en.png" alt="en" class="w-5 h-5 inline-block mr-2"/>
-                  English
+              
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  
+                    
+                  
+                    
+                      
+                      
+                    
+                  
+                
+                
+                <a href="/ca/404.html" class="nav-link block px-4 py-2 text-sm text-text-primary dark:text-text-primary ">
+                  <img src="/images/ca.png" alt="ca flag" class="w-5 h-5 mr-2 inline-block" />Català
                 </a>
               
             
               
-                <a href="/ca/" class="block px-4 py-2 text-sm text-text-primary dark:text-text-primary">
-                  <img src="/images/ca.png" alt="ca" class="w-5 h-5 inline-block mr-2"/>
-                  Català
+              
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  
+                    
+                      
+                      
+                    
+                  
+                    
+                  
+                
+                
+                <a href="/404.html" class="nav-link block px-4 py-2 text-sm text-text-primary dark:text-text-primary ">
+                  <img src="/images/en.png" alt="en flag" class="w-5 h-5 mr-2 inline-block" />English
                 </a>
               
             
               
-                <a href="/es/" class="block px-4 py-2 text-sm text-text-primary dark:text-text-primary">
-                  <img src="/images/es.png" alt="es" class="w-5 h-5 inline-block mr-2"/>
-                  Español
+              
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  
+                    
+                  
+                    
+                  
+                
+                
+                <a href="/es/" class="nav-link block px-4 py-2 text-sm text-text-primary dark:text-text-primary font-semibold">
+                  <img src="/images/es.png" alt="es flag" class="w-5 h-5 mr-2 inline-block" />Español
                 </a>
               
             
           </div>
         </div>
+        
 
         
-        <div class="flex items-center space-x-4">
+        <div class="flex items-center space-x-4" data-animation="social">
           
-            <a href="https://www.linkedin.com/in/jordi-blanch-salgado/" target="_blank" class="text-text-primary dark:text-text-primary hover:scale-125 transition-transform">
-              <i class="fab fa-linkedin-in text-xl"></i>
-            </a>
+          <a href="https://www.linkedin.com/in/jordi-blanch-salgado/" target="_blank" rel="noopener noreferrer" class="text-text-primary dark:text-text-primary transition-transform duration-300 hover:scale-125">
+            <i class="fab fa-linkedin-in text-xl"></i>
+          </a>
           
           
-            <a href="https://github.com/jordi13/" target="_blank" class="text-text-primary dark:text-text-primary hover:scale-125 transition-transform">
-              <i class="fab fa-github text-xl"></i>
-            </a>
+          <a href="https://github.com/jordi13/" target="_blank" rel="noopener noreferrer" class="text-text-primary dark:text-text-primary transition-transform duration-300 hover:scale-125">
+            <i class="fab fa-github text-xl"></i>
+          </a>
           
         </div>
-
         
         <button id="darkModeToggle" class="text-text-primary dark:text-text-primary focus:outline-none">
           <i class="fas fa-toggle-on dark:hidden"></i>
           <i class="fas fa-toggle-off hidden dark:block"></i>
         </button>
       </div>
-
-      
       <div class="lg:hidden flex items-center space-x-4">
+        
         <button id="darkModeToggleMobile" class="text-text-primary dark:text-text-primary focus:outline-none">
           <i class="fas fa-toggle-on dark:hidden"></i>
           <i class="fas fa-toggle-off hidden dark:block"></i>
@@ -243,106 +298,272 @@
   </div>
 
   
-  <div id="mobile-menu" class="hidden lg:hidden bg-bg dark:bg-bg shadow-lg flex-col">
-    <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col">
+  <div id="mobile-menu" class="hidden lg:hidden bg-bg dark:bg-bg shadow-lg">
+    <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
       
-      
-        <a href="/es/#about" class="block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">Sobre Mi</a>
-        
-      
-        <a href="/es/#skills" class="block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">Habilidades</a>
-        
-      
-        <a href="/es/#experience" class="block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">Experiencia</a>
-        
-      
-        <a href="/es/#contact" class="block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">Contacto</a>
-        
-      
-
-      <hr class="border-t border-border-primary dark:border-border-primary my-2">
-
-      
-      <div class="flex space-x-3 px-3 py-2">
-        
         
           
-            <a href="/" class="flex items-center px-2 py-1 text-base text-text-primary dark:text-text-primary">
-              <img src="/images/en.png" alt="en" class="w-5 h-5 mr-2"/>
-              English
-            </a>
-          
+          <a href="/es/#about" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">
+            Sobre Mi
+          </a>
+        
+        
+      
         
           
-            <a href="/ca/" class="flex items-center px-2 py-1 text-base text-text-primary dark:text-text-primary">
-              <img src="/images/ca.png" alt="ca" class="w-5 h-5 mr-2"/>
-              Català
-            </a>
-          
+          <a href="/es/#skills" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">
+            Habilidades
+          </a>
+        
+        
+      
         
           
-            <a href="/es/" class="flex items-center px-2 py-1 text-base text-text-primary dark:text-text-primary">
-              <img src="/images/es.png" alt="es" class="w-5 h-5 mr-2"/>
-              Español
-            </a>
-          
+          <a href="/es/#experience" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">
+            Experiencia
+          </a>
         
+        
+      
+        
+          
+          <a href="/es/#contact" class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary">
+            Contacto
+          </a>
+        
+        
+      
+      
+      
+      
+      <div class="px-3 py-2 border-t border-border-primary dark:border-border-primary">
+        <div class="flex items-center space-x-3">
+          
+          
+            
+            
+              
+              		
+              
+              
+              
+              
+              
+              
+              
+              
+                
+                  
+                
+                  
+                    
+                    
+                  
+                
+              
+              
+              <a href="/ca/404.html" class="px-2 py-1 text-xl opacity-70 hover:opacity-100" aria-label="Switch to Català (has translation)">
+                <img src="/images/ca.png" alt="ca flag" class="w-5 h-5 mr-2 inline-block" />Català
+              </a>
+            
+          
+            
+            
+              
+              		
+              
+              
+              
+              
+              
+              
+              
+              
+                
+                  
+                    
+                    
+                  
+                
+                  
+                
+              
+              
+              <a href="/404.html" class="px-2 py-1 text-xl opacity-70 hover:opacity-100" aria-label="Switch to English (has translation)">
+                <img src="/images/en.png" alt="en flag" class="w-5 h-5 mr-2 inline-block" />English
+              </a>
+            
+          
+            
+            
+              
+              		
+              
+              
+              
+              
+              
+              
+              
+              
+                
+                  
+                
+                  
+                
+              
+              
+              <a href="/es/" class="px-2 py-1 text-xl opacity-100 font-semibold" aria-label="Switch to Español (go to home)">
+                <img src="/images/es.png" alt="es flag" class="w-5 h-5 mr-2 inline-block" />Español
+              </a>
+            
+          
+        </div>
       </div>
-
-      <hr class="border-t border-border-primary dark:border-border-primary my-2">
+      
 
       
-      <div class="flex space-x-4 px-3 py-2">
-        
-          <a href="https://www.linkedin.com/in/jordi-blanch-salgado/" target="_blank" class="text-text-primary dark:text-text-primary hover:scale-125 transition-transform">
-            <i class="fab fa-linkedin-in text-xl"></i>
-          </a>
-        
-        
-          <a href="https://github.com/jordi13/" target="_blank" class="text-text-primary dark:text-text-primary hover:scale-125 transition-transform">
-            <i class="fab fa-github text-xl"></i>
-          </a>
-        
+      <div class="flex items-center space-x-6 px-3 py-3 border-t border-border-primary dark:border-border-primary mt-2" data-animation="social">
+        <a href="https://www.linkedin.com/in/jordi-blanch-salgado/" target="_blank" rel="noopener noreferrer" class="text-text-primary dark:text-text-primary transition-transform duration-300 hover:scale-125">
+          <i class="fab fa-linkedin-in text-2xl"></i>
+        </a>
+        <a href="https://github.com/jordi13/" target="_blank" rel="noopener noreferrer" class="text-text-primary dark:text-text-primary transition-transform duration-300 hover:scale-125">
+          <i class="fab fa-github text-2xl"></i>
+        </a>
       </div>
     </div>
   </div>
 
   
-  <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    
-    if (!localStorage.getItem('darkMode')) {
-      document.documentElement.classList.remove('dark');
-      localStorage.setItem('darkMode', false);
-    } else {
-      const isDark = localStorage.getItem('darkMode') === 'true';
-      document.documentElement.classList.toggle('dark', isDark);
+  <style>
+    .group.open .submenu {
+      opacity: 1 !important;
+      visibility: visible !important;
     }
+  </style>
+
+  
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('Navigation script loaded');
+      
+      const sectionLinks = document.querySelectorAll('.section-link');
+      console.log('Found section links:', sectionLinks.length);
+      const homePath = '\/es\/';
+      
+      sectionLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          console.log('Section link clicked:', this.getAttribute('data-section'));
+          
+          const section = this.getAttribute('data-section');
+          const isHomePage = window.location.pathname === homePath || window.location.pathname === homePath + 'index.html' || window.location.pathname === homePath.replace(/\/$/, '');
+          console.log('Is home page:', isHomePage);
+          
+          if (isHomePage) {
+            
+            const targetElement = document.querySelector(section);
+            console.log('Target element found:', !!targetElement);
+            if (targetElement) {
+              targetElement.scrollIntoView({
+                behavior: 'instant',
+                block: 'start'
+              });
+            }
+          } else {
+            
+            console.log('Navigating to:', homePath + section);
+            window.location.href = homePath + section;
+          }
+        });
+      });
+      
+      
+      function handleHashScroll() {
+        console.log('Checking for hash:', window.location.hash);
+        if (window.location.hash) {
+          const targetElement = document.querySelector(window.location.hash);
+          console.log('Hash target element found:', !!targetElement);
+          if (targetElement) {
+            
+            setTimeout(() => {
+              console.log('Scrolling to hash target');
+              targetElement.scrollIntoView({
+                behavior: 'instant',
+                block: 'start'
+              });
+            }, 100);
+          }
+        }
+      }
+      
+      
+      handleHashScroll();
+      
+      
+      setTimeout(handleHashScroll, 500);
+      setTimeout(handleHashScroll, 1000);
+      
+      
+      window.addEventListener('hashchange', function() {
+        console.log('Hash changed to:', window.location.hash);
+        handleHashScroll();
+      });
+      
+      
+      window.addEventListener('load', function() {
+        console.log('Window loaded, checking hash');
+        setTimeout(handleHashScroll, 200);
+      });
+    });
+    
+    
+    document.querySelectorAll('.group > a.nav-link, .group > button.nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const group = this.closest('.group');
+        const isOpen = group.classList.contains('open');
+
+        
+        document.querySelectorAll('.group').forEach(g => g.classList.remove('open'));
+
+        
+        if (!isOpen) {
+          group.classList.add('open');
+        }
+      });
+
+      document.addEventListener('click', function(event) {
+        const group = link.closest('.group');
+        if (!group.contains(event.target)) {
+          group.classList.remove('open');
+        }
+      });
+    });
 
     
     function toggleDarkMode() {
       const isDark = document.documentElement.classList.toggle('dark');
       localStorage.setItem('darkMode', isDark);
     }
+
     document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
     document.getElementById('darkModeToggleMobile').addEventListener('click', toggleDarkMode);
 
     
-    const menuBtn = document.getElementById('menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
-    menuBtn.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
-    });
-
-    
-    mobileMenu.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        mobileMenu.classList.add('hidden');
+    document.querySelectorAll('#mobile-menu a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        document.getElementById('mobile-menu').classList.add('hidden');
       });
     });
-  });
+
+
   </script>
 </nav>
+
+
+
 
     <div class="w-full h-16"></div>
 
