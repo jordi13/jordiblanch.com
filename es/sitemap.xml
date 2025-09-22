@@ -2,42 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jordiblanch.com/es/contact/</loc>
-    <lastmod>2025-09-08T10:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jordiblanch.com/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://jordiblanch.com/ca/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jordiblanch.com/es/contact/"
-                />
-  </url><url>
-    <loc>https://jordiblanch.com/es/</loc>
-    <lastmod>2025-09-08T10:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jordiblanch.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://jordiblanch.com/ca/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jordiblanch.com/es/"
-                />
-  </url><url>
     <loc>https://jordiblanch.com/es/about/</loc>
     <xhtml:link
                 rel="alternate"
@@ -70,6 +34,23 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://jordiblanch.com/es/categories/"
+                />
+  </url><url>
+    <loc>https://jordiblanch.com/es/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jordiblanch.com/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="https://jordiblanch.com/ca/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://jordiblanch.com/es/contact/"
                 />
   </url><url>
     <loc>https://jordiblanch.com/es/experience/</loc>
@@ -155,6 +136,23 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://jordiblanch.com/es/nav/"
+                />
+  </url><url>
+    <loc>https://jordiblanch.com/es/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jordiblanch.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="https://jordiblanch.com/ca/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://jordiblanch.com/es/"
                 />
   </url><url>
     <loc>https://jordiblanch.com/es/skills/</loc>
