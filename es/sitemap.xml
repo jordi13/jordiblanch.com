@@ -1,209 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  
   <url>
-    <loc>https://jordiblanch.com/es/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jordiblanch.com/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://jordiblanch.com/ca/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jordiblanch.com/es/about/"
-                />
-  </url><url>
-    <loc>https://jordiblanch.com/es/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jordiblanch.com/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://jordiblanch.com/ca/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jordiblanch.com/es/categories/"
-                />
-  </url><url>
-    <loc>https://jordiblanch.com/es/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jordiblanch.com/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://jordiblanch.com/ca/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jordiblanch.com/es/contact/"
-                />
-  </url><url>
-    <loc>https://jordiblanch.com/es/experience/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jordiblanch.com/experience/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://jordiblanch.com/ca/experience/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jordiblanch.com/es/experience/"
-                />
-  </url><url>
-    <loc>https://jordiblanch.com/es/footer/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jordiblanch.com/footer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://jordiblanch.com/ca/footer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jordiblanch.com/es/footer/"
-                />
-  </url><url>
-    <loc>https://jordiblanch.com/es/head/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jordiblanch.com/head/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://jordiblanch.com/ca/head/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jordiblanch.com/es/head/"
-                />
-  </url><url>
-    <loc>https://jordiblanch.com/es/hero/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jordiblanch.com/hero/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://jordiblanch.com/ca/hero/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jordiblanch.com/es/hero/"
-                />
-  </url><url>
-    <loc>https://jordiblanch.com/es/nav/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jordiblanch.com/nav/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://jordiblanch.com/ca/nav/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jordiblanch.com/es/nav/"
-                />
-  </url><url>
     <loc>https://jordiblanch.com/es/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jordiblanch.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://jordiblanch.com/ca/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jordiblanch.com/es/"
-                />
-  </url><url>
-    <loc>https://jordiblanch.com/es/skills/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jordiblanch.com/skills/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://jordiblanch.com/ca/skills/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jordiblanch.com/es/skills/"
-                />
-  </url><url>
-    <loc>https://jordiblanch.com/es/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jordiblanch.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://jordiblanch.com/ca/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jordiblanch.com/es/tags/"
-                />
-  </url><url>
-    <loc>https://jordiblanch.com/es/technical/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jordiblanch.com/technical/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://jordiblanch.com/ca/technical/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jordiblanch.com/es/technical/"
-                />
+    <lastmod>0001-01-01T00:00:00Z</lastmod>
   </url>
+
+  
+  
+  
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
 </urlset>
