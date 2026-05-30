@@ -2,72 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio de Jordi Blanch</title>
-    <link>http://localhost:1313/es/</link>
+    <link>https://jordiblanch.com/es/</link>
     <description>Recent content on Portfolio de Jordi Blanch</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jordiblanch.com/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/es/about/</link>
+      <link>https://jordiblanch.com/es/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/about/</guid>
+      <guid>https://jordiblanch.com/es/about/</guid>
       <description></description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/es/contact/</link>
+      <link>https://jordiblanch.com/es/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/contact/</guid>
+      <guid>https://jordiblanch.com/es/contact/</guid>
       <description></description>
     </item>
     <item>
       <title>Experiencia</title>
-      <link>http://localhost:1313/es/experience/</link>
+      <link>https://jordiblanch.com/es/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/experience/</guid>
+      <guid>https://jordiblanch.com/es/experience/</guid>
       <description></description>
     </item>
     <item>
       <title>Footer</title>
-      <link>http://localhost:1313/es/footer/</link>
+      <link>https://jordiblanch.com/es/footer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/footer/</guid>
+      <guid>https://jordiblanch.com/es/footer/</guid>
       <description></description>
     </item>
     <item>
       <title>Head</title>
-      <link>http://localhost:1313/es/head/</link>
+      <link>https://jordiblanch.com/es/head/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/head/</guid>
+      <guid>https://jordiblanch.com/es/head/</guid>
       <description></description>
     </item>
     <item>
       <title>Hero</title>
-      <link>http://localhost:1313/es/hero/</link>
+      <link>https://jordiblanch.com/es/hero/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/hero/</guid>
+      <guid>https://jordiblanch.com/es/hero/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MyPipican</title>
+      <link>https://jordiblanch.com/es/projects/mypipican/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jordiblanch.com/es/projects/mypipican/</guid>
       <description></description>
     </item>
     <item>
       <title>Nav</title>
-      <link>http://localhost:1313/es/nav/</link>
+      <link>https://jordiblanch.com/es/nav/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/nav/</guid>
+      <guid>https://jordiblanch.com/es/nav/</guid>
       <description></description>
     </item>
     <item>
       <title>Skills</title>
-      <link>http://localhost:1313/es/skills/</link>
+      <link>https://jordiblanch.com/es/skills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/skills/</guid>
+      <guid>https://jordiblanch.com/es/skills/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical</title>
-      <link>http://localhost:1313/es/technical/</link>
+      <link>https://jordiblanch.com/es/technical/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/technical/</guid>
+      <guid>https://jordiblanch.com/es/technical/</guid>
       <description></description>
     </item>
   </channel>

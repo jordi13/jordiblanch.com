@@ -2,72 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio of Jordi Blanch</title>
-    <link>http://localhost:1313/</link>
+    <link>https://jordiblanch.com/</link>
     <description>Recent content on Portfolio of Jordi Blanch</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jordiblanch.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://jordiblanch.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://jordiblanch.com/about/</guid>
       <description></description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://jordiblanch.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://jordiblanch.com/contact/</guid>
       <description></description>
     </item>
     <item>
       <title>Experience</title>
-      <link>http://localhost:1313/experience/</link>
+      <link>https://jordiblanch.com/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/</guid>
+      <guid>https://jordiblanch.com/experience/</guid>
       <description></description>
     </item>
     <item>
       <title>Footer</title>
-      <link>http://localhost:1313/footer/</link>
+      <link>https://jordiblanch.com/footer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/footer/</guid>
+      <guid>https://jordiblanch.com/footer/</guid>
       <description></description>
     </item>
     <item>
       <title>Head</title>
-      <link>http://localhost:1313/head/</link>
+      <link>https://jordiblanch.com/head/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/head/</guid>
+      <guid>https://jordiblanch.com/head/</guid>
       <description></description>
     </item>
     <item>
       <title>Hero</title>
-      <link>http://localhost:1313/hero/</link>
+      <link>https://jordiblanch.com/hero/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hero/</guid>
+      <guid>https://jordiblanch.com/hero/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MyPipican</title>
+      <link>https://jordiblanch.com/projects/mypipican/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jordiblanch.com/projects/mypipican/</guid>
       <description></description>
     </item>
     <item>
       <title>Nav</title>
-      <link>http://localhost:1313/nav/</link>
+      <link>https://jordiblanch.com/nav/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/nav/</guid>
+      <guid>https://jordiblanch.com/nav/</guid>
       <description></description>
     </item>
     <item>
       <title>Skills</title>
-      <link>http://localhost:1313/skills/</link>
+      <link>https://jordiblanch.com/skills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/skills/</guid>
+      <guid>https://jordiblanch.com/skills/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical</title>
-      <link>http://localhost:1313/technical/</link>
+      <link>https://jordiblanch.com/technical/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/technical/</guid>
+      <guid>https://jordiblanch.com/technical/</guid>
       <description></description>
     </item>
   </channel>
